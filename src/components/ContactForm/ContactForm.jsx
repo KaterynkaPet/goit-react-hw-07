@@ -52,7 +52,7 @@ const ContactForm = () => {
         } else {
             dispatch(addContact(values));
             resetForm();
-            setFormattedNumber(''); // Reset the formatted number
+            setFormattedNumber(''); 
         }
   };
     return (

@@ -1,6 +1,6 @@
-import ContactForm from './components/contact_form/ContactForm'
-import SearchBox from './components/search_box/SearchBox'
-import ContactList from './components/contact_list/ContactList'
+import ContactForm from './components/ContactForm/ContactForm'
+import SearchBox from './components/SearchBox/SearchBox'
+import ContactList from './components/ContactList/ContactList'
 import css from './App.module.css'
 
 

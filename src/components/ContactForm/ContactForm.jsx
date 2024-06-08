@@ -2,7 +2,8 @@ import { useState } from 'react';
 import { Formik, Form, Field, ErrorMessage } from 'formik';
 import * as Yup from 'yup';
 import { useDispatch, useSelector } from 'react-redux';
-import { addContact, selectContacts } from '../../redux/contactsSlice.js';
+import { selectContacts } from '../../redux/contactsSlice.js';
+import { addContact } from '../../redux/contactsOps.js';
 import css from './ContactForm.module.css'
 
 const ContactForm = () => {

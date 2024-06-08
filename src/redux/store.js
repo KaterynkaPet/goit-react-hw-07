@@ -14,4 +14,3 @@ export const store = configureStore({
         getDefaultMiddleware(),
 });
 
-export const persistor = persistStore(store);

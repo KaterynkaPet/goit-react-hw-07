@@ -3,12 +3,12 @@ import { deleteContact } from '../redux/contactsOps';
 import css from './Contact.module.css'
 
 
-const Contact = ({ contact, onDelete }) => {
+const Contact = ({ contact }) => {
     const dispatch = useDispatch();
 
     const handleDelete = () => {
         dispatch(deleteContact(contact.id));
-        onDelete();
+        
     };
 
     return (
